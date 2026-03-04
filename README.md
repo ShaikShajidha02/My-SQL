@@ -1,4 +1,4 @@
-**#Zepto SQL Data Analysis Project**
+**Zepto SQL Data Analysis Project**
 
 This project contains SQL-based data analysis performed on a Zepto dataset. The goal of this project is to explore, clean, and analyze product-level data to extract meaningful business insights.
 
