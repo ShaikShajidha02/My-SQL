@@ -2,14 +2,16 @@
 
 This project contains SQL-based data analysis performed on a Zepto dataset. The goal of this project is to explore, clean, and analyze product-level data to extract meaningful business insights.
 
-**📂 Project Structure**
-📁 Zepto-SQL-Project
-│── Zepto SQL project.sql     # SQL queries for analysis
-│── zepto_v2.csv              # Raw dataset
-│── README.md                 # Project documentation
+**Project Structure**
+* Zepto-SQL-Project
+* Zepto SQL project.sql     
+* zepto_v2.csv              
+* README.md                 
 
 **Dataset Information**
+
 File: zepto_v2.csv
+
 The dataset contains product-level information from Zepto, including details such as:
 * Product name
 * Category
@@ -20,14 +22,17 @@ The dataset contains product-level information from Zepto, including details suc
 * Rating
 * Stock availability
 * Other relevant attributes
+  
 The dataset is used for performing SQL-based exploratory data analysis (EDA).
 
 **Technologies Used**
+
 * SQL (MySQL / PostgreSQL compatible queries)
 * CSV dataset
 * Any SQL client (MySQL Workbench / pgAdmin / DBeaver / etc.)
 
 **Project Objectives**
+
 The SQL queries in Zepto SQL project.sql are designed to:
 * Perform data cleaning
 * Analyze pricing and discount patterns
@@ -37,6 +42,7 @@ The SQL queries in Zepto SQL project.sql are designed to:
 * Extract business insights from structured data
 
 **Data Cleaning Steps**
+
 Some common cleaning operations performed:
 * Handling NULL values
 * Removing duplicate records
@@ -44,6 +50,7 @@ Some common cleaning operations performed:
 * Converting data types where necessary
 
 **Key Analysis Performed**
+
 Examples of insights generated:
 * Average price by category
 * Top discounted products
@@ -53,7 +60,9 @@ Examples of insights generated:
 * Stock availability insights
 
 **How to Use This Project**
+
 1️⃣ Import Dataset into SQL
+
 Create a table and import zepto_v2.csv into your database.
 Example (MySQL):
 
@@ -66,11 +75,13 @@ CREATE TABLE zepto (
 Then import the CSV file using your SQL client.
 
 2️⃣ Run SQL Queries
+
 Open:
 Zepto SQL project.sql
 Execute the queries step by step to reproduce the analysis.
 
 **Skills Demonstrated**
+
 * SQL querying
 * Data cleaning
 * Aggregations & Grouping
